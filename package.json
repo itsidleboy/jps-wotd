@@ -1,0 +1,32 @@
+{
+  "name": "jps-wotd",
+  "version": "1.1.0",
+  "description": "Fetch the Japanese word of the day from [JapanesePod101](https://www.japanesepod101.com/japanese-phrases), along with additional details and downloadable audio examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsidleboy/jps-wotd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsidleboy/jps-wotd/issues"
+  },
+  "homepage": "https://github.com/itsidleboy/jps-wotd#readme",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "jsdom": "^26.0.0",
+    "user-agents": "^1.1.481",
+    "yarn": "^1.22.22"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
